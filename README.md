@@ -17,9 +17,9 @@ To get started, follow these steps:
 2. Install the required dependencies by running:
 
 ```bash
-npm install
+npm install --force 
 # or if you use yarn
-yarn install
+yarn install --force 
 ```
 
 # Available Scripts
