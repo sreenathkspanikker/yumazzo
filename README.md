@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+# Yumazzo - Version 0.1.0.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Yumazzo** is a private project built with React and Redux, aimed at creating a user-friendly web application. This repository contains the source code and configuration files required to run the application.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you proceed, ensure you have the following installed:
 
-### `npm start`
+- Node.js (version 16 or later)
+- npm (Node Package Manager) or yarn (preferred)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To get started, follow these steps:
 
-### `npm test`
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+# or if you use yarn
+yarn install
+```
 
-### `npm run build`
+# Available Scripts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the project directory, you can run the following scripts:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `npm start` or `yarn start`: Starts the development server. The app will be available at [http://localhost:3000](http://localhost:3000) in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `npm build` or `yarn build`: Builds the app for production, creating optimized and minified files.
 
-### `npm run eject`
+- `npm test` or `yarn test`: Runs the test suite with coverage reporting.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `npm eject` or `yarn eject`: Ejects the create-react-app configuration, allowing customization of build tools.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project utilizes the following dependencies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `@reduxjs/toolkit`: Redux toolkit for state management.
+- `@types/node`, `@types/react`, `@types/react-dom`, `@types/react-redux`: TypeScript type definitions for various libraries.
+- `antd`: Ant Design, a popular React UI framework.
+- `react`, `react-dom`, `react-redux`: Core libraries for building React applications.
+- `react-scripts`: Configuration and scripts for Create React App.
+- `redux`: A predictable state container for JavaScript apps.
+- `typescript`: TypeScript programming language.
+- `web-vitals`: Library for measuring web vitals performance metrics.
 
-## Learn More
+## Development Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+These development dependencies are used for testing and building:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `@babel/plugin-syntax-jsx`, `@babel/preset-react`, `@babel/preset-typescript`: Babel plugins for JSX and TypeScript support.
+- `@testing-library/jest-dom`, `@testing-library/react`, `@testing-library/user-event`: Testing utilities for React components.
+- `@types/enzyme`, `@types/enzyme-to-json`, `@types/jest`, `@types/redux-mock-store`: TypeScript type definitions for testing and mocking libraries.
+- `babel-jest`, `enzyme`, `enzyme-adapter-react-16`, `enzyme-to-json`, `jest`, `redux-mock-store`: Testing libraries and utilities.
+
+## Eslint Configuration
+
+The project uses the `react-app` and `react-app/jest` Eslint configurations.
+
+## Browsers Support
+
+The project supports the following browsers:
+
+- Production: >0.2%, not dead, not op_mini all
+- Development: last 1 Chrome version, last 1 Firefox version, last 1 Safari version
+
+## Test Coverage Thresholds
+
+The test coverage thresholds are set to ensure a minimum of 80% coverage for branches, functions, lines, and statements.
+
+## Contributing
+
+As this project is private, external contributions are not accepted. However, you can fork this repository for your own use.
+
+## License
+
+This project is not open-source and therefore does not include a license for distribution or modification. All rights reserved.
+
+## Contact
+
+If you have any questions or need further assistance, you can contact the project maintainers at [contact@yumazzo.com](mailto:contact@yumazzo.com).

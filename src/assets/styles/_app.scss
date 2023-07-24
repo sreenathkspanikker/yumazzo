@@ -1,0 +1,15 @@
+.app-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background: #0D1119;
+    .app-container{
+        display: flex;
+        margin: 0 auto;
+        width: 410px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        border-radius: 10px;
+    }
+}

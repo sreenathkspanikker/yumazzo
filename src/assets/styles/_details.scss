@@ -1,0 +1,164 @@
+.details-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    // item header
+    .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+
+        .item-header-flag {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--default-white, #FFF);
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .item-header-action {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                li {
+                    display: flex;
+                    padding: 7px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    background: var(--neutral-60, #171F2F);
+
+                    &:hover {
+                        background: #394259;
+                    }
+                }
+            }
+
+            .btn-add-recipe {
+                display: flex;
+                height: 24px;
+                padding: 7px;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                border-radius: 4px;
+                background: var(--neutral-60, #171F2F);
+                cursor: pointer;
+                color: #FFF;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+
+                &:hover {
+                    background: #394259;
+                }
+            }
+        }
+    }
+
+    // item desciption
+    .item-description {
+        display: flex;
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        flex: 1 0 0;
+
+        border-radius: 6px;
+        background: var(--teal-60, #17CFC4);
+
+        /* Box Shadows/Light/Medium */
+        box-shadow: 0px 10px 30px 3px rgba(5, 16, 55, 0.15);
+
+        h2 {
+            display: flex;
+            padding-right: 0px;
+            align-items: center;
+
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            color: var(--neutral-100, #0D1119);
+
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    // item details
+    .item-details {
+        display: flex;
+        padding: 13px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 6px;
+        background: var(--neutral-80, #131823);
+
+        /* Box Shadows/Light/X-Small */
+        box-shadow: 0px 2px 6px 0px rgba(5, 16, 55, 0.10);
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+
+            li {
+                color: var(--neutral-20, #7185AA);
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                flex-basis: calc(50% - 6px);
+                display: flex;
+                gap: 1px;
+                flex-direction: column;
+
+                span {
+                    display: block;
+                    color: var(--default-white, #FFF);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+
+                &.Hot{
+                    span {
+                        color: red;
+                    }
+                }
+
+                &.Easy{
+                    span {
+                        color: green;
+                    }
+                }
+
+                &.active {
+                    span {
+                        background: linear-gradient(136deg, #FFBF43 0%, #FF4869 100%);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}

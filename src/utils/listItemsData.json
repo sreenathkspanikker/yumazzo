@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "flag": "Vietnam",
+        "name": "Thai Curry",
+        "category": "Hard",
+        "duration": "35min",
+        "details": {
+            "difficulty": "medium",
+            "description": "Thai Curry is a delicious and spicy curry dish from Thailand...",
+            "protein": "Jumbo Shrimp",
+            "spiceLevel": "Hot",
+            "spices": "Saffron",
+            "cookingOil": "Spanish Olive Oil",
+            "volumeWeight": 700,
+            "serves": 4,
+            "authenticity": "Unverified",
+            "stock": "Chicken",
+            "produce": "Chicken",
+            "origin": "Chicken"
+        }
+    },
+    {
+        "id": 2,
+        "flag": "India",
+        "name": "Indian Curry",
+        "category": "Medium",
+        "duration": "30min",
+        "details": {
+            "difficulty": "medium",
+            "description": "Indian Curry is a flavorful and aromatic curry dish from India...",
+            "protein": "Jumbo Shrimp",
+            "spiceLevel": "Hot",
+            "spices": "Saffron",
+            "cookingOil": "Spanish Olive Oil",
+            "volumeWeight": 700,
+            "serves": 4,
+            "authenticity": "Unverified",
+            "stock": "Chicken",
+            "produce": "Chicken",
+            "origin": "Chicken"
+        }
+    },
+    {
+        "id": 3,
+        "flag": "Thailand",
+        "name": "Vietnamese Curry",
+        "category": "Easy",
+        "duration": "50min",
+        "details": {
+            "difficulty": "medium",
+            "description": "Vietnamese Curry is a simple and hearty curry dish from Vietnam...",
+            "protein": "Jumbo Shrimp",
+            "spiceLevel": "Hot",
+            "spices": "Saffron",
+            "cookingOil": "Spanish Olive Oil",
+            "volumeWeight": 700,
+            "serves": 4,
+            "authenticity": "Unverified",
+            "stock": "Chicken",
+            "produce": "Chicken",
+            "origin": "Chicken"
+        }
+    }
+]
