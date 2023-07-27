@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Youmazzo",
+    "version": "1.0",
+    "description": "Description of your extension",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}
